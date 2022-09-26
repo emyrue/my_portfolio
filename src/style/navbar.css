@@ -1,5 +1,5 @@
 nav {
-  height: 50px;
+  height: 75px;
   width: 100%;
   background-color: white;
   position: fixed;
@@ -24,8 +24,4 @@ nav {
 
 .nav-link:hover {
   text-decoration: underline;
-}
-
-.nav-link:visited {
-
 }
