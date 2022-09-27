@@ -25,3 +25,9 @@ nav {
 .nav-link:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 991px) {
+  nav {
+    display: none;
+  }
+}
