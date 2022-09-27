@@ -2,10 +2,50 @@ h1 {
   font-size: 90px;
   font-family:'Times New Roman', Times, serif;
   font-weight: normal;
+  width: 70%;
+  margin: 100px;
+}
+
+.homepage-section {
+  display: flex;
+}
+
+.homepage-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-paragraph {
+  width: 70%;
+}
+
+.mobile-banner {
+  display: none;
+}
+
+.desktop-banner {
+  width: 50vw;
 }
 
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 60px;
+    margin: 30px;
+  }
+
+  .homepage-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mobile-banner {
+    display: block;
+    width: 100vw;
+    max-width: 500px;
+  }
+
+  .desktop-banner {
+    display: none;
   }
 }
