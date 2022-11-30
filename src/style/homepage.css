@@ -42,7 +42,7 @@ h1 {
   .mobile-banner {
     display: block;
     width: 100vw;
-    max-width: 500px;
+    margin-top: 30px;
   }
 
   .desktop-banner {
