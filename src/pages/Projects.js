@@ -20,7 +20,7 @@ function Projects() {
               <h3 className="project-title">{project.title}</h3>
               <ul className="project-technologies">
                 {project.technologies.map((technology) => {
-                  <li>{technology}</li>
+                  return (<li>{technology}</li>);
                 })}
               </ul>
             </div>
