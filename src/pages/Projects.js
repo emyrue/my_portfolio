@@ -5,6 +5,7 @@ function Projects() {
       technologies: ["JavaScript", "HTML", "CSS"],
       class_names: "project project-one",
       class_names_2: "project-info project-info-one",
+      class_names_3: "project-image project-image-one",
       github_link: "",
       description: "My first project",
       screenshot: "",
