@@ -2,7 +2,7 @@ import '../style/navbar.css';
 
 function NavBar() {
   return (
-    <nav>
+    <nav className="desktop-nav">
       <ul className="nav-links">
         <li>
           <a className="nav-link" href="/">Home</a>

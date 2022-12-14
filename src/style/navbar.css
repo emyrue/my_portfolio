@@ -1,4 +1,4 @@
-nav {
+.desktop-nav {
   height: 75px;
   width: 100%;
   background-color: white;
@@ -27,7 +27,7 @@ nav {
 }
 
 @media screen and (max-width: 991px) {
-  nav {
+  .desktop-nav {
     display: none;
   }
 }
