@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+}
+
+.project-image {
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  border: 2px solid red;
+}
