@@ -27,7 +27,8 @@
 }
 
 .mobile-nav,
-.mobile-nav-show {
+.mobile-nav-show,
+.menu-icon {
   display: none;
 }
 

@@ -1,8 +1,9 @@
 import '../style/navbar.css';
+import hamburger from '../images/hamburger.svg'
 import { useState } from 'react';
 
 function NavBar() {
-  const [classes, setClasses] = useState("mobile-nav");
+  const [listClasses, setListClasses] = useState("mobile-nav");
   return (
     <div>
       <nav className="desktop-nav">
@@ -21,19 +22,20 @@ function NavBar() {
           </li>
         </ul>
       </nav>
-      <div className={classes}>
+      <img src={hamburger} className={"menu-icon"}/>
+      <div className={listClasses}>
         <ul className="mobile-nav-links">
           <li>
-            <a className="mobile-nav-link" href="/">Home</a>
+            <a className="mobile-nav-link" href="/" onClick={() => setListClasses("mobile-nav")}>Home</a>
           </li>
           <li>
-            <a className="mobile-nav-link" href="#projects">Projects</a>
+            <a className="mobile-nav-link" href="#projects" onClick={() => setListClasses("mobile-nav")}>Projects</a>
           </li>
           <li>
-            <a className="mobile-nav-link" href="#about">About</a>
+            <a className="mobile-nav-link" href="#about" onClick={() => setListClasses("mobile-nav")}>About</a>
           </li>
           <li>
-            <a className="mobile-nav-link" href="#contact">Contact</a>
+            <a className="mobile-nav-link" href="#contact" onClick={() => setListClasses("mobile-nav")}>Contact</a>
           </li>
         </ul>
       </div>
