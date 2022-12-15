@@ -26,8 +26,21 @@
   text-decoration: underline;
 }
 
+.mobile-nav,
+.mobile-nav-show {
+  display: none;
+}
+
 @media screen and (max-width: 991px) {
   .desktop-nav {
     display: none;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .mobile-nav-show {
+    display: block;
   }
 }
