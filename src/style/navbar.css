@@ -57,6 +57,8 @@
   .menu-icon {
     display: block;
     margin: 5px;
+    position: fixed;
+    top: 0;
   }
 
   .mobile-nav-links {
