@@ -22,7 +22,7 @@ function NavBar() {
           </li>
         </ul>
       </nav>
-      <img src={hamburger} className={"menu-icon"}/>
+      <img src={hamburger} alt="menu" className={"menu-icon"} onClick={() => setListClasses("mobile-nav mobile-nav-show")} />
       <div className={listClasses}>
         <ul className="mobile-nav-links">
           <li>

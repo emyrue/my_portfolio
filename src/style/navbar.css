@@ -44,4 +44,9 @@
   .mobile-nav-show {
     display: block;
   }
+
+  .menu-icon {
+    display: block;
+    margin: 5px;
+  }
 }
