@@ -62,5 +62,10 @@
   .mobile-nav-links {
     list-style: none;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    justify-content: space-between;
   }
 }
