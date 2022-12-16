@@ -2,6 +2,7 @@ import '../style/navbar.css';
 import hamburger from '../images/hamburger.svg';
 import close from '../images/close.svg';
 import topLeft from '../images/image_geometry_1.png';
+import banner from '../images/menu-bottom.png';
 import { useState } from 'react';
 
 function NavBar() {
@@ -41,6 +42,7 @@ function NavBar() {
             <a className="mobile-nav-link" href="#contact" onClick={() => setListClasses("mobile-nav")}>Contact</a>
           </li>
         </ul>
+        <img src={banner} alt="geometry" className="menu-banner" />
         <img src={close} alt="close" className="menu-close" onClick={() => setListClasses("mobile-nav")} />
       </div>
     </div>
