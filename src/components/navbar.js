@@ -24,7 +24,7 @@ function NavBar() {
           </li>
         </ul>
       </nav>
-      <img src={topLeft} alt="icon" className="menu-top-left" />
+      <img src={topLeft} alt="icon" className="mobile-top-left" />
       <img src={hamburger} alt="menu" className="menu-icon" onClick={() => setListClasses("mobile-nav mobile-nav-show")} />
       <div className={listClasses}>
         <ul className="mobile-nav-links">

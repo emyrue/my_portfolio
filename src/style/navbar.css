@@ -29,7 +29,7 @@
 .mobile-nav,
 .mobile-nav-show,
 .menu-icon,
-.menu-top-left {
+.mobile-top-left {
   display: none;
 }
 
@@ -53,6 +53,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 10;
   }
 
   .menu-icon {
@@ -73,11 +74,12 @@
     justify-content: space-between;
   }
 
-  .menu-top-left {
+  .mobile-top-left {
     display: block;
-    position: fixed;
+    position: absolute;
     left: 0;
     top: 0;
+    z-index: 1;
   }
 
   .menu-close {
