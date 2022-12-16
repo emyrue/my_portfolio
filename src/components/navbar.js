@@ -1,5 +1,6 @@
 import '../style/navbar.css';
-import hamburger from '../images/hamburger.svg'
+import hamburger from '../images/hamburger.svg';
+import close from '../images/close.svg';
 import { useState } from 'react';
 
 function NavBar() {
@@ -22,7 +23,7 @@ function NavBar() {
           </li>
         </ul>
       </nav>
-      <img src={hamburger} alt="menu" className={"menu-icon"} onClick={() => setListClasses("mobile-nav mobile-nav-show")} />
+      <img src={hamburger} alt="menu" className="menu-icon" onClick={() => setListClasses("mobile-nav mobile-nav-show")} />
       <div className={listClasses}>
         <ul className="mobile-nav-links">
           <li>
@@ -38,6 +39,7 @@ function NavBar() {
             <a className="mobile-nav-link" href="#contact" onClick={() => setListClasses("mobile-nav")}>Contact</a>
           </li>
         </ul>
+        <img src={close} alt="close" className="menu-close" onClick={() => setListClasses("mobile-nav")} />
       </div>
     </div>
   );
