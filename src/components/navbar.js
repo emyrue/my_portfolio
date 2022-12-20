@@ -3,6 +3,7 @@ import hamburger from '../images/hamburger.svg';
 import close from '../images/close.svg';
 import topLeft from '../images/image_geometry_1.png';
 import banner from '../images/menu-bottom.png';
+import menuTop from '../images/menu-top.png';
 import { useState } from 'react';
 
 function NavBar() {
@@ -28,6 +29,7 @@ function NavBar() {
       <img src={topLeft} alt="icon" className="mobile-top-left" />
       <img src={hamburger} alt="menu" className="menu-icon" onClick={() => setListClasses("mobile-nav mobile-nav-show")} />
       <div className={listClasses}>
+        <img src={menuTop} alt="geometry" className="menu-top" />
         <ul className="mobile-nav-links">
           <li>
             <a className="mobile-nav-link" href="/" onClick={() => setListClasses("mobile-nav")}>Home</a>
