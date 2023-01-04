@@ -16,8 +16,16 @@
   padding-bottom: 20px;
 }
 
-.project-blue {
+.project-info {
   background-color: #1a2236;
+  padding: 20px;
+}
+
+.project-title {
+  color: white;
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
+  font-weight: 600;
+  font-size: 30px;
 }
 
 @media  screen and (min-width: 992px) {
