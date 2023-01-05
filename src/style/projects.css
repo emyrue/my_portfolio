@@ -18,7 +18,7 @@
 
 .project-info {
   background-color: #1a2236;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 .project-title {
@@ -26,6 +26,20 @@
   font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-weight: 600;
   font-size: 30px;
+  margin: 0;
+}
+
+.project-technologies {
+  list-style: none;
+  padding: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-technology {
+  background-color: #98dede;
+  padding: 5px;
+  margin: 5px;
 }
 
 @media  screen and (min-width: 992px) {
