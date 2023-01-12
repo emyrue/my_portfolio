@@ -4,7 +4,7 @@ import '../style/projects.css';
 function Projects() {
   let allProjects = [
     {
-      title: "Project 1",
+      title: "Project 1 Name Goes Here",
       technologies: ["JavaScript", "HTML", "CSS"],
       class_names: "project project-one",
       class_names_2: "project-image project-image-one",
@@ -12,6 +12,7 @@ function Projects() {
       class_names_4: "project-title project-title-one",
       class_names_5: "project-technologies project-technologies-one",
       class_names_6: "project-technology project-technology-one",
+      class_names_7: "see-project see-project-one",
       github_link: "",
       description: "My first project",
       screenshot: screenshot1,
@@ -23,7 +24,7 @@ function Projects() {
       {allProjects.map((project) => {
         return (
           <div className={project.class_names}>
-            <img className={project.class_names_2} src={project.screenshot} />
+            <img alt="screenshot" className={project.class_names_2} src={project.screenshot} />
             <div className={project.class_names_3}>
               <h3 className={project.class_names_4}>{project.title}</h3>
               <ul className={project.class_names_5}>
@@ -31,7 +32,7 @@ function Projects() {
                   return (<li className={project.class_names_6}>{technology}</li>);
                 })}
               </ul>
-              <button>See This Project →</button>
+              <button className={project.class_names_7}>See This Project →</button>
             </div>
           </div>
         );

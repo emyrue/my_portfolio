@@ -24,8 +24,8 @@
 .project-title {
   color: white;
   font-family: 'Poppins', 'Times New Roman', Times, serif;
-  font-weight: 600;
-  font-size: 30px;
+  font-weight: 500;
+  font-size: 25px;
   margin: 0;
 }
 
@@ -34,12 +34,15 @@
   padding: 10px 0;
   display: flex;
   flex-wrap: wrap;
+  margin-left: -5px;
 }
 
 .project-technology {
   background-color: #98dede;
   padding: 5px;
   margin: 5px;
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
+  font-size: 15px;
 }
 
 @media  screen and (min-width: 992px) {
