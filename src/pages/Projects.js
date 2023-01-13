@@ -6,13 +6,7 @@ function Projects() {
     {
       title: "Project 1 Name Goes Here",
       technologies: ["JavaScript", "HTML", "CSS"],
-      class_names: "project project-one",
-      class_names_2: "project-image project-image-one",
-      class_names_3: "project-info project-info-one",
-      class_names_4: "project-title project-title-one",
-      class_names_5: "project-technologies project-technologies-one",
-      class_names_6: "project-technology project-technology-one",
-      class_names_7: "see-project see-project-one",
+      class_name_number: "one",
       github_link: "",
       description: "My first project",
       screenshot: screenshot1,
@@ -23,16 +17,16 @@ function Projects() {
       <h2 className="projects-heading">Projects</h2>
       {allProjects.map((project) => {
         return (
-          <div className={project.class_names}>
-            <img alt="screenshot" className={project.class_names_2} src={project.screenshot} />
-            <div className={project.class_names_3}>
-              <h3 className={project.class_names_4}>{project.title}</h3>
-              <ul className={project.class_names_5}>
+          <div className={"project project-" + project.class_name_number}>
+            <img alt="screenshot" className={"project-image project-image-" + project.class_name_number} src={project.screenshot} />
+            <div className={"project-info project-info-" + project.class_name_number}>
+              <h3 className={"project-title project-title-" + project.class_name_number}>{project.title}</h3>
+              <ul className={"project-technologies project-technologies-" + project.class_name_number}>
                 {project.technologies.map((technology) => {
-                  return (<li className={project.class_names_6}>{technology}</li>);
+                  return (<li className={"project-technology project-technology-one" + project.class_name_number}>{technology}</li>);
                 })}
               </ul>
-              <button className={project.class_names_7}>See This Project →</button>
+              <button className={"see-project see-project-" + project.class_name_number}>See This Project →</button>
             </div>
           </div>
         );
