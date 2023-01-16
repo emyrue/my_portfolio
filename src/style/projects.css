@@ -18,14 +18,14 @@
 
 .project-info {
   background-color: #1a2236;
-  padding: 0 20px;
+  padding: 5px 20px 20px;
 }
 
 .project-title {
   color: white;
   font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 28px;
   margin: 0;
 }
 
@@ -34,15 +34,32 @@
   padding: 10px 0;
   display: flex;
   flex-wrap: wrap;
-  margin-left: -5px;
+  margin: 20px 0;
 }
 
 .project-technology {
   background-color: #98dede;
-  padding: 5px;
-  margin: 5px;
+  padding: 5px 10px;
+  margin: 0 10px 0 0;
   font-family: 'Poppins', 'Times New Roman', Times, serif;
-  font-size: 15px;
+  font-size: 12px;
+}
+
+.see-project {
+  border: 2px solid white;
+  padding: 10px 20px;
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #1a2236;
+  color: white;
+  transition-property: background-color, color;
+  transition-duration: 2s, 2s;
+}
+
+.see-project:hover {
+  background-color: white;
+  color: #1a2236;
 }
 
 @media  screen and (min-width: 992px) {
