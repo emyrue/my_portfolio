@@ -1,4 +1,9 @@
 import screenshot1 from '../images/screenshots/computer-image1.png';
+import screenshot2 from '../images/screenshots/computer-image2.png';
+import screenshot3 from '../images/screenshots/computer-image3.png';
+import screenshot4 from '../images/screenshots/computer-image4.png';
+import screenshot5 from '../images/screenshots/computer-image5.png';
+import screenshot6 from '../images/screenshots/computer-image6.png';
 import '../style/projects.css';
 
 function Projects() {
@@ -10,6 +15,46 @@ function Projects() {
       github_link: "",
       description: "My first project",
       screenshot: screenshot1,
+    },
+    {
+      title: "Project 2 Name Goes Here",
+      technologies: ["JavaScript", "HTML", "CSS"],
+      class_name_number: "two",
+      github_link: "",
+      description: "My second project",
+      screenshot: screenshot2,
+    },
+    {
+      title: "Project 3 Name Goes Here",
+      technologies: ["JavaScript", "HTML", "CSS"],
+      class_name_number: "three",
+      github_link: "",
+      description: "My third project",
+      screenshot: screenshot3,
+    },
+    {
+      title: "Project 4 Name Goes Here",
+      technologies: ["JavaScript", "HTML", "CSS"],
+      class_name_number: "four",
+      github_link: "",
+      description: "My fourth project",
+      screenshot: screenshot4,
+    },
+    {
+      title: "Project 5 Name Goes Here",
+      technologies: ["JavaScript", "HTML", "CSS"],
+      class_name_number: "five",
+      github_link: "",
+      description: "My fifth project",
+      screenshot: screenshot5,
+    },
+    {
+      title: "Project 6 Name Goes Here",
+      technologies: ["JavaScript", "HTML", "CSS"],
+      class_name_number: "six",
+      github_link: "",
+      description: "My sixth project",
+      screenshot: screenshot6,
     },
   ];
   return (
