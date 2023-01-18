@@ -4,6 +4,12 @@ import screenshot3 from '../images/screenshots/computer-image3.png';
 import screenshot4 from '../images/screenshots/computer-image4.png';
 import screenshot5 from '../images/screenshots/computer-image5.png';
 import screenshot6 from '../images/screenshots/computer-image6.png';
+import dots from '../images/dots.png';
+import diamond from '../images/diamond.png';
+import semicircle from '../images/semicircle.png';
+import shapes from '../images/shapes.png';
+import twosquares from '../images/twosquares.png';
+import yellowtear from '../images/yellowtear.png';
 import '../style/projects.css';
 
 function Projects() {
@@ -76,6 +82,12 @@ function Projects() {
           </div>
         );
       })}
+      <img alt="dots" src={dots} />
+      <img alt="diamond" src={diamond} />
+      <img alt="semicircle" src={semicircle} />
+      <img alt="shapes" src={shapes} />
+      <img alt="twosquares" src={twosquares} />
+      <img alt="yellowtear" src={yellowtear} />
     </section>
   );
 }
