@@ -82,12 +82,12 @@ function Projects() {
           </div>
         );
       })}
-      <img alt="dots" src={dots} />
-      <img alt="diamond" src={diamond} />
-      <img alt="semicircle" src={semicircle} />
-      <img alt="shapes" src={shapes} />
-      <img alt="twosquares" src={twosquares} />
-      <img alt="yellowtear" src={yellowtear} />
+      <img className="project-geometry" alt="dots" src={dots} />
+      <img className="project-geometry" alt="diamond" src={diamond} />
+      <img className="project-geometry" alt="semicircle" src={semicircle} />
+      <img className="project-geometry" alt="shapes" src={shapes} />
+      <img className="project-geometry" alt="twosquares" src={twosquares} />
+      <img className="project-geometry" alt="yellowtear" src={yellowtear} />
     </section>
   );
 }

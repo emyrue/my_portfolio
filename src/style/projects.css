@@ -62,9 +62,36 @@
   color: #1a2236;
 }
 
+.project-geometry {
+  display: none;
+}
+
 @media  screen and (min-width: 992px) {
   #projects-section {
     display: grid;
-    grid-template-columns: repeat(18, 5.5555%);
+    grid-template-columns: repeat(18, 5.5555vw);
+  }
+
+  .project,
+  .projects-heading {
+    display: none;
+  }
+
+  .project-one {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column: 7/19;
+    grid-row: 1/8;
+  }
+
+  .project-image-one {
+    width: 100%;
+    grid-column: 1/13;
+    grid-row: 1/8;
+  }
+
+  .project-info-one {
+    grid-column: 1/13;
+    grid-row: 4/8;
   }
 }
