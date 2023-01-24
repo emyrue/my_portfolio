@@ -72,9 +72,15 @@
     grid-template-columns: repeat(18, 5.5555vw);
   }
 
-  .project,
-  .projects-heading {
+  .project {
     display: none;
+  }
+
+  .projects-heading {
+    transform: rotate(270deg);
+    font-size: 100px;
+    grid-column: 4/5;
+    grid-row: 4/5;
   }
 
   .project-one,
@@ -83,6 +89,7 @@
   }
 
   .project-two,
+  .project-three,
   .project-dots,
   .project-semicircle {
     display: block;
@@ -120,7 +127,10 @@
     grid-row: 10/13;
   }
 
-  .project-info-two {
+  .project-info-two,
+  .project-info-three,
+  .project-info-four,
+  .project-info-five {
     display: none;
   }
 
@@ -154,5 +164,14 @@
 
   .project-title-six {
     font-size: 25px;
+  }
+
+  .project-three {
+    grid-row: 13/18;
+    grid-column: 1/11;
+  }
+
+  .project-image-three {
+    width: 100%;
   }
 }
