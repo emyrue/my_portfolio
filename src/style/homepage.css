@@ -14,10 +14,28 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .header-paragraph {
   width: 70%;
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
+}
+
+.collaboration {
+  border: none;
+  background-color: #1a2236;
+  color: white;
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
+  margin-top: 100px;
+  font-size: 18px;
+  padding: 10px 50px;
+}
+
+.homepage-dots {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .mobile-banner {

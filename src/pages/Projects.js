@@ -83,10 +83,10 @@ function Projects() {
         );
       })}
       <img className="project-geometry project-dots" alt="dots" src={dots} />
-      <img className="project-geometry" alt="diamond" src={diamond} />
+      <img className="project-geometry project-diamond" alt="diamond" src={diamond} />
       <img className="project-geometry project-semicircle" alt="semicircle" src={semicircle} />
       <img className="project-geometry project-shapes" alt="shapes" src={shapes} />
-      <img className="project-geometry" alt="twosquares" src={twosquares} />
+      <img className="project-geometry project-twosquares" alt="twosquares" src={twosquares} />
       <img className="project-geometry" alt="yellowtear" src={yellowtear} />
     </section>
   );
