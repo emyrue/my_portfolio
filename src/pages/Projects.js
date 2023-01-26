@@ -87,7 +87,7 @@ function Projects() {
       <img className="project-geometry project-semicircle" alt="semicircle" src={semicircle} />
       <img className="project-geometry project-shapes" alt="shapes" src={shapes} />
       <img className="project-geometry project-twosquares" alt="twosquares" src={twosquares} />
-      <img className="project-geometry" alt="yellowtear" src={yellowtear} />
+      <img className="project-geometry project-yellowtear" alt="yellowtear" src={yellowtear} />
     </section>
   );
 }

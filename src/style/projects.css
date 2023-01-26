@@ -70,11 +70,7 @@
   #projects-section {
     display: grid;
     grid-template-columns: repeat(18, 5.5555vw);
-    grid-template-rows: repeat(20, 5.5555vw);
-  }
-
-  .project {
-    display: none;
+    grid-template-rows: repeat(22, 5.5555vw);
   }
 
   .projects-heading {
@@ -89,13 +85,7 @@
     display: grid;
   }
 
-  .project-two,
-  .project-three,
-  .project-five,
-  .project-dots,
-  .project-semicircle,
-  .project-diamond,
-  .project-twosquares {
+  .project-geometry {
     display: block;
   }
 
@@ -158,7 +148,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     padding: 10px 0 20px;
+  }
+
+  .project-technologies-six {
+    margin: 0;
   }
 
   .project-image-six {
@@ -200,5 +195,22 @@
     grid-column: 15/19;
     grid-row: 16/18;
     width: 100%;
+  }
+
+  .project-four {
+    grid-column: 11/17;
+    grid-row: 19/23;
+  }
+
+  .project-shapes {
+    grid-row: 19/21;
+    grid-column: 1/4;
+  }
+
+  .project-yellowtear {
+    grid-row: 19/21;
+    grid-column: 10/11;
+    position: relative;
+    z-index: -1;
   }
 }
