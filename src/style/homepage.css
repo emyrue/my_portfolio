@@ -3,11 +3,12 @@ h1 {
   font-family: 'Playfair Display', 'Times New Roman', Times, serif;
   font-weight: normal;
   width: 70%;
-  margin: 100px;
+  margin: 70px;
 }
 
 .homepage-section {
   display: flex;
+  margin-bottom: 100px;
 }
 
 .homepage-header {
@@ -20,6 +21,12 @@ h1 {
 .header-paragraph {
   width: 70%;
   font-family: 'Poppins', 'Times New Roman', Times, serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.button-div {
+  width: 70%;
 }
 
 .collaboration {
@@ -27,7 +34,7 @@ h1 {
   background-color: #1a2236;
   color: white;
   font-family: 'Poppins', 'Times New Roman', Times, serif;
-  margin-top: 100px;
+  margin-top: 70px;
   font-size: 18px;
   padding: 10px 50px;
 }
@@ -55,6 +62,14 @@ h1 {
   .homepage-section {
     flex-direction: column;
     align-items: center;
+  }
+
+  .collaboration {
+    margin-top: 50px;
+
+  }
+  .homepage-dots {
+    display: none;
   }
 
   .mobile-banner {

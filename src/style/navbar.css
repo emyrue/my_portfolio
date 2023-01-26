@@ -7,19 +7,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 10;
 }
 
 .nav-links {
   display: flex;
   list-style: none;
   padding: 0;
-  width: 50%;
+  width: 35%;
   justify-content: space-around;
 }
 
 .nav-link {
   color: black;
   text-decoration: none;
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
+  font-weight: 500;
 }
 
 .nav-link:hover {
