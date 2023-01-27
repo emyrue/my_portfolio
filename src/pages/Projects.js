@@ -1,3 +1,4 @@
+import ProjectPopup from '../components/Project';
 import screenshot1 from '../images/screenshots/computer-image1.png';
 import screenshot2 from '../images/screenshots/computer-image2.png';
 import screenshot3 from '../images/screenshots/computer-image3.png';
