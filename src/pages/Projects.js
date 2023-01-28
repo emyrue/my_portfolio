@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import ProjectPopup from '../components/Project';
 import screenshot1 from '../images/screenshots/computer-image1.png';
 import screenshot2 from '../images/screenshots/computer-image2.png';
@@ -14,7 +15,9 @@ import yellowtear from '../images/yellowtear.png';
 import '../style/projects.css';
 
 function Projects() {
-  let allProjects = [
+  const [index, setIndex] = useState(0);
+  const [showPopup, setShowPopup] = useState(false);
+  const allProjects = [
     {
       title: "Project 1 Name Goes Here",
       technologies: ["JavaScript", "HTML", "CSS"],
@@ -64,10 +67,20 @@ function Projects() {
       screenshot: screenshot6,
     },
   ];
+
+  const handleClick = (projectIndex) => {
+    setIndex(projectIndex);
+    setShowPopup(!showPopup);
+  }
+
+  const handleClose = () => {
+    setShowPopup(false);
+  }
+  
   return (
     <section id="projects-section">
       <h2 className="projects-heading">Projects</h2>
-      {allProjects.map((project) => {
+      {allProjects.map((project, i) => {
         return (
           <div className={"project project-" + project.class_name_number}>
             <img alt="screenshot" className={"project-image project-image-" + project.class_name_number} src={project.screenshot} />
@@ -78,7 +91,9 @@ function Projects() {
                   return (<li className={"project-technology project-technology-one" + project.class_name_number}>{technology}</li>);
                 })}
               </ul>
-              <button className={"see-project see-project-" + project.class_name_number}>See This Project →</button>
+              <button className={"see-project see-project-" + project.class_name_number} onClick={() => handleClick(i)}>
+                See This Project →
+              </button>
             </div>
           </div>
         );
@@ -89,6 +104,7 @@ function Projects() {
       <img className="project-geometry project-shapes" alt="shapes" src={shapes} />
       <img className="project-geometry project-twosquares" alt="twosquares" src={twosquares} />
       <img className="project-geometry project-yellowtear" alt="yellowtear" src={yellowtear} />
+      <ProjectPopup array={allProjects} index={index} show={showPopup} closeProject={handleClose} />
     </section>
   );
 }
