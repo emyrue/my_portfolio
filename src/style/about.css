@@ -1,0 +1,18 @@
+.about-heading {
+  font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+  font-size: 50px;
+  font-weight: 200;
+}
+
+.about-text {
+  font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.cv-button {
+  font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  background-color: #1a2236;
+  border: none;
+  color: white;
+}
