@@ -81,4 +81,10 @@ h1 {
   .desktop-banner {
     display: none;
   }
+
+  .collaboration {
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 50px;
+  }
 }

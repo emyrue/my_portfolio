@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import closePopup from '../images/close.svg';
 import githubLogo from '../images/github-logo.svg';
+import live from '../images/live.png';
 import '../style/projectpopup.css';
 
 function ProjectPopup(props) {
@@ -25,10 +26,18 @@ function ProjectPopup(props) {
       <img className="popup-screenshot" alt="screenshot" src={array[projectIndex].screenshot} />
       <div className="popup-description">{array[projectIndex].description}</div>
       <div className="button-center">
-        <button className="popup-github-button">
-          <span>See source</span>
-          <img alt="github" src={githubLogo} className="popup-github-logo" />
-        </button>
+        <a href={array[projectIndex].live_link} target="_blank" rel="noreferrer">
+          <button className="popup-github-button">
+            <span>See live</span>
+            <img alt="live" src={live} className="popup-github-logo" />
+          </button>
+        </a>
+        <a href={array[projectIndex].github_link} target="_blank" rel="noreferrer">
+          <button className="popup-github-button">
+            <span>See source</span>
+            <img alt="github" src={githubLogo} className="popup-github-logo" />
+          </button>
+        </a>
       </div>
     </section>
   );
