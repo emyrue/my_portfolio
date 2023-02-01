@@ -84,7 +84,7 @@ function Projects() {
   }
   
   return (
-    <section id="projects-section">
+    <section id="projects">
       <h2 className="projects-heading">Projects</h2>
       {allProjects.map((project, i) => {
         return (

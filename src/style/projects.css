@@ -67,7 +67,7 @@
 }
 
 @media  screen and (min-width: 992px) {
-  #projects-section {
+  #projects {
     display: grid;
     grid-template-columns: repeat(18, 5.5555vw);
     grid-template-rows: repeat(22, 5.5555vw);
