@@ -108,18 +108,17 @@
 
   .about-content {
     align-items: flex-start;
+    max-width: 450px;
   }
 
   .about-heading {
     font-size: 80px;
     font-weight: 500;
-    max-width: 50vw;
-    width: 450px;
+    max-width: 450px;
   }
 
   .about-text {
-    width: 450px;
-    max-width: 50vw;
+    max-width: 450px;
     font-size: 15px;
     font-weight: 500;
   }
@@ -150,5 +149,11 @@
   .cv-button {
     width: 150px;
     padding: 15px;
+  }
+}
+
+@media screen and (max-width: 1076px) and (min-width: 992px) {
+  .about-content {
+    max-width: 350px;
   }
 }
