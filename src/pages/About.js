@@ -14,6 +14,13 @@ function About() {
           <img className="about-download" src={download} alt="" />
         </button>
       </div>
+      <div className="about-squares">
+        <ul className="about-languages">
+          <li>Hello</li>
+        </ul>
+        <ul className="about-frameworks"></ul>
+        <ul className="about-skills"></ul>
+      </div>
     </section>
   );
 }

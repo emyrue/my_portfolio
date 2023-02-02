@@ -1,18 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0;
+}
+
 .about-heading {
   font-family: 'Playfair Display', 'Times New Roman', Times, serif;
   font-size: 50px;
   font-weight: 200;
+  width: 288px;
+  margin: 0 0 30px;
 }
 
 .about-text {
   font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  width: 288px;
+  margin: 0 0 60px;
 }
 
 .cv-button {
   font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: #1a2236;
   border: none;
   color: white;
+  width: 288px;
+  padding: 5px;
+  margin: 0 0 20px;
+}
+
+.about-download {
+  width: 25px;
+}
+
+.about-squares {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-languages {
+  background-image: url('../images/languages.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 288px;
+  height: 288px;
 }
