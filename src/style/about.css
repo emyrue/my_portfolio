@@ -13,13 +13,15 @@
   font-family: 'Playfair Display', 'Times New Roman', Times, serif;
   font-size: 50px;
   font-weight: 200;
-  width: 288px;
+  width: 90%;
+  max-width: 288px;
   margin: 0 0 30px;
 }
 
 .about-text {
   font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  width: 288px;
+  width: 90%;
+  max-width: 288px;
   margin: 0 0 60px;
 }
 
@@ -33,7 +35,8 @@
   background-color: #1a2236;
   border: none;
   color: white;
-  width: 288px;
+  width: 90%;
+  max-width: 288px;
   padding: 5px;
   margin: 0 0 20px;
 }
@@ -65,8 +68,10 @@
 .about-skills {
   background-repeat: no-repeat;
   background-size: cover;
-  width: 288px;
-  height: 288px;
+  width: 90vw;
+  height: 90vw;
+  max-width: 288px;
+  max-height: 288px;
   color: white;
   font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   display: flex;
@@ -87,4 +92,63 @@
 .about-list-item {
   font-size: 18px;
   width: 180px;
+}
+
+.about-dots {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  #about {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin: 50px 0 100px;
+  }
+
+  .about-content {
+    align-items: flex-start;
+  }
+
+  .about-heading {
+    font-size: 80px;
+    font-weight: 500;
+    max-width: 50vw;
+    width: 450px;
+  }
+
+  .about-text {
+    width: 450px;
+    max-width: 50vw;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .about-dots {
+    display: block;
+    position: absolute;
+    width: 200px;
+    bottom: -30px;
+    right: -50px;
+  }
+
+  .about-squares {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 500px;
+    position: relative;
+  }
+
+  .about-languages,
+  .about-frameworks,
+  .about-skills {
+    margin: 0;
+    width: 250px;
+    height: 250px;
+  }
+
+  .cv-button {
+    width: 150px;
+    padding: 15px;
+  }
 }

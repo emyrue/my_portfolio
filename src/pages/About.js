@@ -1,4 +1,5 @@
 import download from '../images/download.svg';
+import dotsWithTeal from '../images/dots_with_teal.png';
 import '../style/about.css';
 
 function About() {
@@ -40,6 +41,7 @@ function About() {
             <li className="about-list-item">Github</li>
           </ul>
         </div>
+        <img alt="" src={dotsWithTeal} className="about-dots" />
       </div>
     </section>
   );
