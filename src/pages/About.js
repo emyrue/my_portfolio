@@ -24,8 +24,22 @@ function About() {
             <li className="about-list-item">Ruby</li>
           </ul>
         </div>
-        <div className="about-frameworks"></div>
-        <div className="about-skills"></div>
+        <div className="about-frameworks">
+          <h4 className="about-square-heading">Frameworks</h4>
+          <ul>
+            <li className="about-list-item">Bootstrap</li>
+            <li className="about-list-item">Ruby on Rails</li>
+            <li className="about-list-item">Rspec</li>
+            <li className="about-list-item">Capybara</li>
+          </ul>
+        </div>
+        <div className="about-skills">
+          <h4 className="about-square-heading">Skills</h4>
+          <ul>
+            <li className="about-list-item">Terminal</li>
+            <li className="about-list-item">Github</li>
+          </ul>
+        </div>
       </div>
     </section>
   );
