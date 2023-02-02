@@ -15,11 +15,17 @@ function About() {
         </button>
       </div>
       <div className="about-squares">
-        <ul className="about-languages">
-          <li>Hello</li>
-        </ul>
-        <ul className="about-frameworks"></ul>
-        <ul className="about-skills"></ul>
+        <div className="about-languages">
+          <h4 className="about-square-heading">Languages</h4>
+          <ul>
+            <li className="about-list-item">HTML</li>
+            <li className="about-list-item">CSS</li>
+            <li className="about-list-item">JavaScript</li>
+            <li className="about-list-item">Ruby</li>
+          </ul>
+        </div>
+        <div className="about-frameworks"></div>
+        <div className="about-skills"></div>
       </div>
     </section>
   );

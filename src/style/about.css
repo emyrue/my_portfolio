@@ -50,8 +50,40 @@
 
 .about-languages {
   background-image: url('../images/languages.png');
+}
+
+.about-frameworks {
+  background-image: url('../images/frameworks.png');
+}
+
+.about-skills {
+  background-image: url('../images/skills.png');
+}
+
+.about-languages,
+.about-frameworks,
+.about-skills {
   background-repeat: no-repeat;
   background-size: cover;
   width: 288px;
   height: 288px;
+  color: white;
+  font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.about-square-heading {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  width: 180px;
+  margin: 0 0 20px;
+}
+
+.about-list-item {
+  font-size: 18px;
+  width: 180px;
 }
