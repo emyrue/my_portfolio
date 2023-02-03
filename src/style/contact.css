@@ -1,0 +1,8 @@
+#contact {
+  background-image: url('../images/background.png');
+}
+
+.contact-top-left,
+.contact-bottom-right {
+  display: none;
+}
