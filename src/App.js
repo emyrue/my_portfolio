@@ -3,6 +3,7 @@ import HomePage from './pages/HomePage';
 import Projects from './pages/Projects';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Projects />
       <About />
       <Contact />
+      <Footer />
     </div>
   );
 }
