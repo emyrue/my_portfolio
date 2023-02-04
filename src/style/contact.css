@@ -133,5 +133,22 @@ form {
   .form-text {
     width: 548px;
     max-width: none;
+    font-size: 15px;
+  }
+
+  .flex-container {
+    display: flex;
+    max-width: none;
+    width: 548px;
+    justify-content: space-between;
+  }
+
+  .input-div {
+    width: 260px;
+  }
+
+  .text-area {
+    max-width: none; 
+    width: 548px;
   }
 }
