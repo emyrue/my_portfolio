@@ -3,6 +3,7 @@ footer {
   height: 150px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   padding: 30px;
 }
 
@@ -21,4 +22,10 @@ footer {
 
 .resume-icon {
   width: 25px;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  width: 288px;
 }

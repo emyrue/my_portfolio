@@ -12,7 +12,7 @@ function Footer() {
         <span>Get my resume</span>
         <img className="resume-icon" alt="" src={open} />
       </button>
-      <div>
+      <div className="socials">
         <img src={github} alt="github" />
         <img src={twitter} alt="twitter" />
         <img src={linkedin} alt="linkedin" />
