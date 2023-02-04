@@ -16,10 +16,10 @@ function Contact() {
           </div>
           <div className="input-div">
             <label className="form-label" htmlFor="email">Your Email</label>
-            <input className="input-box" type="text" id="email" name="email" />
+            <input className="input-box" type="email" id="email" name="email" />
           </div>
         </div>
-        <textarea className="text-area" name="message" id="message" cols="30" rows="10" placeholder="Write your message"></textarea>
+        <textarea className="text-area" name="message" id="message" placeholder="Write your message"></textarea>
         <button type="submit" className="submit-button">Start Collaboration</button>
       </form>
       <img src={mobileTop} alt="" className="mobile-top" />

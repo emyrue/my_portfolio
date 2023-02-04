@@ -17,9 +17,9 @@ form {
 }
 
 .form-heading {
-  font-size: 45px;
+  font-size: 50px;
   font-family: 'Playfair Display', 'Times New Roman', Times, serif;
-  font-weight: 500;
+  font-weight: 400;
   width: 90vw;
   max-width: 288px;
 }
@@ -36,6 +36,49 @@ form {
 .form-label,
 .text-area {
   font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid lightgray;
+  padding: 10px;
+  width: 90vw;
+  max-width: 288px;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-size: 10px;
+  color: gray;
+}
+
+.input-box {
+  border: none;
+  font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  width: 100%;
+  color: gray;
+}
+
+.input-box:focus {
+  outline: none;
+}
+
+.text-area {
+  color: gray;
+  border: 1px solid lightgray;
+  border-radius: 0;
+  width: 90vw;
+  resize: vertical;
+  max-width: 288px;
+  min-height: 100px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.text-area:focus {
+  outline: none;
 }
 
 .contact-top-left,
