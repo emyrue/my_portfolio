@@ -97,3 +97,41 @@ form {
 .contact-bottom-right {
   display: none;
 }
+
+@media screen and (min-width: 992px) {
+  .mobile-top {
+    display: none;
+  }
+
+  .contact-top-left,
+  .contact-bottom-right {
+    display: block;
+    position: absolute;
+  }
+
+  .contact-top-left {
+    top: 0;
+    left: 0;
+    width: 150px;
+  }
+  .contact-bottom-right {
+    bottom: 0;
+    right: 0;
+    width: 150px;
+  }
+
+  #contact {
+    padding-top: 50px;
+  }
+
+  .form-heading {
+    font-size: 110px;
+    width: 548px;
+    max-width: none;
+  }
+
+  .form-text {
+    width: 548px;
+    max-width: none;
+  }
+}
