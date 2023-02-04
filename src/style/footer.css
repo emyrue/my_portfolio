@@ -27,5 +27,6 @@ footer {
 .socials {
   display: flex;
   justify-content: space-between;
-  width: 288px;
+  width: 90vw;
+  max-width: 288px;
 }
