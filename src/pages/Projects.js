@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import ProjectPopup from '../components/Project';
-import screenshot1 from '../images/screenshots/computer-image1.png';
-import screenshot2 from '../images/screenshots/computer-image2.png';
-import screenshot3 from '../images/screenshots/computer-image3.png';
-import screenshot4 from '../images/screenshots/computer-image4.png';
+import concertListing from '../images/screenshots/concert-listing.png';
+import blogApp from '../images/screenshots/blog-app.png';
+import transactions from '../images/screenshots/transactions.png';
+import spaceTravelers from '../images/screenshots/space-travelers.png';
 import screenshot5 from '../images/screenshots/computer-image5.png';
 import screenshot6 from '../images/screenshots/computer-image6.png';
 import dots from '../images/dots.png';
@@ -19,40 +19,40 @@ function Projects() {
   const [showPopup, setShowPopup] = useState(false);
   const allProjects = [
     {
-      title: "Project 1 Name Goes Here",
+      title: "Concert Listing Site",
       technologies: ["JavaScript", "HTML", "CSS"],
       class_name_number: "one",
-      github_link: "https://github.com/emyrue",
-      live_link: "",
-      description: "My first project",
-      screenshot: screenshot1,
+      github_link: "https://github.com/emyrue/ConcertListing",
+      live_link: "https://emyrue.github.io/ConcertListing/",
+      description: "A site showcasing my skills in HTML, CSS, and JavaScript. This responsive site displays music groups using a template by Cindy Shin.",
+      screenshot: concertListing,
     },
     {
-      title: "Project 2 Name Goes Here",
-      technologies: ["JavaScript", "HTML", "CSS"],
+      title: "Blog App",
+      technologies: ["Ruby on Rails", "CSS"],
       class_name_number: "two",
-      github_link: "https://github.com/emyrue",
+      github_link: "https://github.com/emyrue/BlogAppRails",
       live_link: "",
-      description: "My second project",
-      screenshot: screenshot2,
+      description: "A site that allows users to create, edit, and delete blog posts. Users can also comment on and like posts.",
+      screenshot: blogApp,
     },
     {
-      title: "Project 3 Name Goes Here",
-      technologies: ["JavaScript", "HTML", "CSS"],
+      title: "Transactions App",
+      technologies: ["Ruby on Rails", "CSS"],
       class_name_number: "three",
-      github_link: "https://github.com/emyrue",
+      github_link: "https://github.com/emyrue/TransactionsApp",
       live_link: "",
-      description: "My third project",
-      screenshot: screenshot3,
+      description: "This site allows the user to create categories as well as save transactions in those categories.",
+      screenshot: transactions,
     },
     {
-      title: "Project 4 Name Goes Here",
-      technologies: ["JavaScript", "HTML", "CSS"],
+      title: "Space Travelers' Hub",
+      technologies: ["JavaScript", "React", "Redux", "CSS"],
       class_name_number: "four",
-      github_link: "https://github.com/emyrue",
+      github_link: "https://github.com/emyrue/SpaceTravelersHub",
       live_link: "",
-      description: "My fourth project",
-      screenshot: screenshot4,
+      description: "This is a site that contacts the Space Travelers Api to display information about rockets and missions. Users can also book rockets and join missions.",
+      screenshot: spaceTravelers,
     },
     {
       title: "Project 5 Name Goes Here",

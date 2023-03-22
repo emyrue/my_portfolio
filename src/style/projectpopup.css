@@ -55,6 +55,7 @@
 .popup-screenshot {
   width: 90%;
   margin: 10px 5vw;
+  border: 1px solid #1a2236;
 }
 
 .popup-description {
