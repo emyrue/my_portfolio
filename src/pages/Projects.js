@@ -4,8 +4,8 @@ import concertListing from '../images/screenshots/concert-listing.png';
 import blogApp from '../images/screenshots/blog-app.png';
 import transactions from '../images/screenshots/transactions.png';
 import spaceTravelers from '../images/screenshots/space-travelers.png';
-import screenshot5 from '../images/screenshots/computer-image5.png';
-import screenshot6 from '../images/screenshots/computer-image6.png';
+import mathMagicians from '../images/screenshots/mathmagicians.png';
+import toDo from '../images/screenshots/todo.png';
 import dots from '../images/dots.png';
 import diamond from '../images/diamond.png';
 import semicircle from '../images/semicircle.png';
@@ -55,22 +55,22 @@ function Projects() {
       screenshot: spaceTravelers,
     },
     {
-      title: "Project 5 Name Goes Here",
-      technologies: ["JavaScript", "HTML", "CSS"],
+      title: "Math Magicians",
+      technologies: ["React", "HTML", "CSS"],
       class_name_number: "five",
-      github_link: "https://github.com/emyrue",
-      live_link: "",
-      description: "My fifth project",
-      screenshot: screenshot5,
+      github_link: "https://github.com/emyrue/MathMagicians",
+      live_link: "https://62698423346f4e198a1d010a--lovely-praline-054af9.netlify.app/",
+      description: "This site is a react application with a calculator that allows users to perform basic math operations.",
+      screenshot: mathMagicians,
     },
     {
-      title: "Project 6 Name Goes Here",
+      title: "ToDo List App",
       technologies: ["JavaScript", "HTML", "CSS"],
       class_name_number: "six",
-      github_link: "https://github.com/emyrue",
-      live_link: "",
-      description: "My sixth project",
-      screenshot: screenshot6,
+      github_link: "https://github.com/emyrue/todo",
+      live_link: "open dist/index.html",
+      description: "This site is a simple todo list app that allows users to add, edit, and delete tasks.",
+      screenshot: toDo,
     },
   ];
 
