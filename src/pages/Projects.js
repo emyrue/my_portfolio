@@ -87,14 +87,14 @@ function Projects() {
     <section id="projects">
       <h2 className="projects-heading">Projects</h2>
       {allProjects.map((project, i) => (
-        <div className={`project project-${project.class_name_number}`}>
+        <div key={i.to_s} className={`project project-${project.class_name_number}`}>
           <img alt="screenshot" className={`project-image project-image-${project.class_name_number}`} src={project.screenshot} />
           <div className={`project-info project-info-${project.class_name_number}`}>
             <h3 className={`project-title project-title-${project.class_name_number}`}>{project.title}</h3>
             <ul className={`project-technologies project-technologies-${project.class_name_number}`}>
-              {project.technologies.map((technology) => (<li className={`project-technology project-technology-one${project.class_name_number}`}>{technology}</li>))}
+              {project.technologies.map((technology, j) => (<li key={j.to_s} className={`project-technology project-technology-one${project.class_name_number}`}>{technology}</li>))}
             </ul>
-            <button className={`see-project see-project-${project.class_name_number}`} onClick={() => handleClick(i)}>
+            <button type="button" className={`see-project see-project-${project.class_name_number}`} onClick={() => handleClick(i)}>
               See This Project →
             </button>
           </div>

@@ -31,6 +31,10 @@ footer {
   max-width: 288px;
 }
 
+.hidden-link {
+  text-decoration: none;
+}
+
 @media screen and (min-width: 992px) {
   footer {
     flex-direction: row;

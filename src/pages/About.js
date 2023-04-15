@@ -1,4 +1,4 @@
-// eslint disable-next-line no-unused-vars
+// eslint-disable-next-line no-unused-vars
 import download from '../images/download.svg';
 import dotsWithTeal from '../images/dots_with_teal.png';
 import '../style/about.css';

@@ -11,7 +11,7 @@ function HomePage() {
         <div className="header-paragraph">Hello! I am a software developer! I can help you build a product, feature or website. Take a look at my works. If you like what you see and have a project you need coded, don’t hesitate and contact me.</div>
         <div className="button-div">
           <a href="#contact">
-            <button className="collaboration">Start Collaboration</button>
+            <button type="button" className="collaboration">Start Collaboration</button>
           </a>
         </div>
         <img alt="dots" className="homepage-dots" src={dots} />
