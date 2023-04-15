@@ -68,7 +68,7 @@ function Projects() {
       technologies: ["JavaScript", "HTML", "CSS"],
       class_name_number: "six",
       github_link: "https://github.com/emyrue/todo",
-      live_link: "open dist/index.html",
+      live_link: "https://emyrue.github.io/todo/",
       description: "This site is a simple todo list app that allows users to add, edit, and delete tasks.",
       screenshot: toDo,
     },

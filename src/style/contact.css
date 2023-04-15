@@ -114,6 +114,7 @@ form {
     left: 0;
     width: 150px;
   }
+
   .contact-bottom-right {
     bottom: 0;
     right: 0;
@@ -148,7 +149,7 @@ form {
   }
 
   .text-area {
-    max-width: none; 
+    max-width: none;
     width: 548px;
   }
 }
