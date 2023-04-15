@@ -1,5 +1,5 @@
-import desktopBanner from '../images/banner2.png'
-import mobileBanner from '../images/image_geometry_2.png'
+import desktopBanner from '../images/banner2.png';
+import mobileBanner from '../images/image_geometry_2.png';
 import dots from '../images/dots.png';
 import '../style/homepage.css';
 

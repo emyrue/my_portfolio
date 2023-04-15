@@ -19,7 +19,7 @@ function Contact() {
             <input className="input-box" type="email" id="email" name="email" />
           </div>
         </div>
-        <textarea className="text-area" name="message" id="message" placeholder="Write your message"></textarea>
+        <textarea className="text-area" name="message" id="message" placeholder="Write your message" />
         <button type="submit" className="submit-button">Start Collaboration</button>
       </form>
       <img src={mobileTop} alt="" className="mobile-top" />
