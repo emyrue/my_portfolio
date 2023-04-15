@@ -27,7 +27,9 @@ function NavBar() {
         </ul>
       </nav>
       <img src={topLeft} alt="icon" className="mobile-top-left" />
-      <img src={hamburger} alt="menu" className="menu-icon" onClick={() => setListClasses('mobile-nav mobile-nav-show')} />
+      <button type="button" className="hidden-button menu-icon" onClick={() => setListClasses('mobile-nav mobile-nav-show')}>
+        <img src={hamburger} alt="menu" className="menu-icon" />
+      </button>
       <div className={listClasses}>
         <img src={menuTop} alt="geometry" className="menu-top" />
         <ul className="mobile-nav-links">
@@ -45,7 +47,9 @@ function NavBar() {
           </li>
         </ul>
         <img src={banner} alt="geometry" className="menu-banner" />
-        <img src={close} alt="close" className="menu-close" onClick={() => setListClasses('mobile-nav')} />
+        <button type="button" className="hidden-button menu-close" onClick={() => setListClasses('mobile-nav')}>
+          <img src={close} alt="close" className="menu-close" />
+        </button>
       </div>
     </div>
   );

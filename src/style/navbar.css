@@ -10,6 +10,11 @@
   z-index: 10;
 }
 
+.hidden-button {
+  border: none;
+  background: none;
+}
+
 .nav-links {
   display: flex;
   list-style: none;

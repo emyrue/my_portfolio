@@ -24,7 +24,7 @@ function ProjectPopup(props) {
       </button>
       <h3 className="popup-title">{array[projectIndex].title}</h3>
       <ul className="popup-technologies">
-        {array[projectIndex].technologies.map((technology) => (<li className="popup-technology">{technology}</li>))}
+        {array[projectIndex].technologies.map((technology, i) => (<li key={i.to_s} className="popup-technology">{technology}</li>))}
       </ul>
       <img className="popup-screenshot" alt="screenshot" src={array[projectIndex].screenshot} />
       <div className="popup-description">{array[projectIndex].description}</div>
@@ -57,7 +57,15 @@ function ProjectPopup(props) {
 }
 
 ProjectPopup.propTypes = {
-  array: PropTypes.arrayOf(PropTypes.object).isRequired,
+  array: PropTypes.arrayOf(PropTypes.objectOf({
+    title: PropTypes.string.isRequired,
+    technologies: PropTypes.arrayOf(PropTypes.string).isRequired,
+    class_name_number: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    github_link: PropTypes.string.isRequired,
+    live_link: PropTypes.string.isRequired,
+    screenshot: PropTypes.any.isRequired,
+  }).isRequired).isRequired,
   index: PropTypes.number.isRequired,
   show: PropTypes.bool.isRequired,
   closeProject: PropTypes.func.isRequired,
