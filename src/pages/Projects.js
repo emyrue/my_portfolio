@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import ProjectPopup from '../components/Project';
 import concertListing from '../images/screenshots/concert-listing.png';
-import blogApp from '../images/screenshots/blog-app.png';
+import recipeApp from '../images/screenshots/recipe-app.png';
 import transactions from '../images/screenshots/transactions.png';
 import spaceTravelers from '../images/screenshots/space-travelers.png';
 import mathMagicians from '../images/screenshots/mathmagicians.png';
@@ -28,13 +28,13 @@ function Projects() {
       screenshot: concertListing,
     },
     {
-      title: 'Blog App',
+      title: 'Recipe App',
       technologies: ['Ruby on Rails', 'CSS'],
       class_name_number: 'two',
-      github_link: 'https://github.com/emyrue/BlogAppRails',
-      live_link: '',
-      description: 'A site that allows users to create, edit, and delete blog posts. Users can also comment on and like posts.',
-      screenshot: blogApp,
+      github_link: 'https://github.com/AKeeganDev/recipe_app',
+      live_link: 'https://recipe-app-public.onrender.com/',
+      description: 'A site that allows users to create, edit, and delete their own recipes. Users can also enter a code to become an admin, allowing them to edit and delete all recipes.',
+      screenshot: recipeApp,
     },
     {
       title: 'Transactions App',
