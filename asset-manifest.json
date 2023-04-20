@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/my_portfolio/static/css/main.f2923ea9.css",
-    "main.js": "/my_portfolio/static/js/main.18292c75.js",
+    "main.js": "/my_portfolio/static/js/main.02398c24.js",
     "static/js/787.128fc6e9.chunk.js": "/my_portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/concert-listing.png": "/my_portfolio/static/media/concert-listing.95482e66b2b554a1938c.png",
     "static/media/space-travelers.png": "/my_portfolio/static/media/space-travelers.ad86640fd025f75702e4.png",
     "static/media/banner2.png": "/my_portfolio/static/media/banner2.5c1f5e35d7298854e6a1.png",
-    "static/media/recipe-app.png": "/my_portfolio/static/media/recipe-app.1f1a945b56eae0057232.png",
+    "static/media/recipe-app.png": "/my_portfolio/static/media/recipe-app.1cd3ee9b4acd2dcf9e4c.png",
     "static/media/todo.png": "/my_portfolio/static/media/todo.a2f6a6801e6ab231be12.png",
     "static/media/transactions.png": "/my_portfolio/static/media/transactions.14b5539f2e4756626ce1.png",
     "static/media/mathmagicians.png": "/my_portfolio/static/media/mathmagicians.1083b4f96ea95c643820.png",
@@ -26,11 +26,11 @@
     "static/media/close.svg": "/my_portfolio/static/media/close.08233535a9321b39bf5f4a13e34fede0.svg",
     "static/media/hamburger.svg": "/my_portfolio/static/media/hamburger.113d59e2703636dfe157ec8ec962d598.svg",
     "main.f2923ea9.css.map": "/my_portfolio/static/css/main.f2923ea9.css.map",
-    "main.18292c75.js.map": "/my_portfolio/static/js/main.18292c75.js.map",
+    "main.02398c24.js.map": "/my_portfolio/static/js/main.02398c24.js.map",
     "787.128fc6e9.chunk.js.map": "/my_portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f2923ea9.css",
-    "static/js/main.18292c75.js"
+    "static/js/main.02398c24.js"
   ]
 }
